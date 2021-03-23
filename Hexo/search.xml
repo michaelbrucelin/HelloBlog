@@ -1,525 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2017/12/31/2018-01-01-HelloWorld/</url>
-    <content><![CDATA[<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><p>update 20200225-2323</p>
-]]></content>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>快速查询</title>
-    <url>/2018/01/01/2018-01-02-%E5%BF%AB%E9%80%9F%E6%9F%A5%E8%AF%A2/</url>
-    <content><![CDATA[<h3 id="一些常用的语句记录"><a href="#一些常用的语句记录" class="headerlink" title="一些常用的语句记录"></a>一些常用的语句记录</h3><ul>
-<li><h4 id="生成uuid"><a href="#生成uuid" class="headerlink" title="生成uuid"></a>生成uuid</h4></li>
-</ul>
-<p>生成的id以<code>U-</code>开头</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;U-&quot;</span>$(uuidgen) | tr <span class="string">&#x27;a-z&#x27;</span> <span class="string">&#x27;A-Z&#x27;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>基本语法示例</title>
-    <url>/2019/01/23/2019-01-24-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/</url>
-    <content><![CDATA[<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><span id="more"></span>
-
-<h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p><strong>这是加粗的文字</strong></p>
-<p><em>这是倾斜的文字</em></p>
-<p><strong><em>这是斜体加粗的文字</em></strong></p>
-<p><del>这是加删除线的文字</del></p>
-<blockquote>
-<p>这是一级引用的内容</p>
-<blockquote>
-<p>这是二级引用的内容</p>
-<blockquote>
-<p>这是三级引用的内容</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>这是十级引用的内容</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<p><img src="https://403found.cn/MyFileBed/PictureBed/SloveniaAlps_ZH-CN6052706424_1920x1080.jpg" alt="图片无法加载，请检查网络" title="CumulusCaribbean"></p>
-<p><a href="http://www.baidu.com/" title="BaiDu">百度</a></p>
-<ul>
-<li>无序列表</li>
-<li>无序列表<ul>
-<li>无序列表</li>
-<li>无序列表</li>
-</ul>
-</li>
-</ul>
-<ol>
-<li>有序列表</li>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>列1</th>
-<th align="center">列2</th>
-<th align="right">列3</th>
-<th>列4</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>11</td>
-<td align="center">12</td>
-<td align="right">13</td>
-<td>14</td>
-</tr>
-<tr>
-<td>21</td>
-<td align="center">22</td>
-<td align="right">23</td>
-<td>24</td>
-</tr>
-</tbody></table>
-<p><code>echo &#39;hello world&#39;</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">fun</span></span>()&#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&#x27;hello world&#x27;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">st&#x3D;&gt;start: START</span><br><span class="line">op&#x3D;&gt;operation: MY OPERATION</span><br><span class="line">cond&#x3D;&gt;condition: YES or NO?</span><br><span class="line">e&#x3D;&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>公式</title>
-    <url>/2019/01/24/2019-01-25-%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<h3 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h3><p>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p>
-<span id="more"></span>
-
-<h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">st&#x3D;&gt;start: Start:&gt;http:&#x2F;&#x2F;www.google.com[blank]</span><br><span class="line">e&#x3D;&gt;end:&gt;http:&#x2F;&#x2F;www.google.com</span><br><span class="line">op1&#x3D;&gt;operation: My Operation</span><br><span class="line">sub1&#x3D;&gt;subroutine: My Subroutine</span><br><span class="line">cond&#x3D;&gt;condition: Yes</span><br><span class="line">or No?:&gt;http:&#x2F;&#x2F;www.google.com</span><br><span class="line">io&#x3D;&gt;inputoutput: catch something...</span><br><span class="line">para&#x3D;&gt;parallel: parallel tasks</span><br><span class="line"></span><br><span class="line">st-&gt;op1-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;para</span><br><span class="line">para(path1, bottom)-&gt;sub1(right)-&gt;op1</span><br><span class="line">para(path2, top)-&gt;op1</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>流程图</title>
-    <url>/2019/01/25/2019-01-26-%E6%B5%81%E7%A8%8B%E5%9B%BE/</url>
-    <content><![CDATA[<h2 id="1-横向流程图"><a href="#1-横向流程图" class="headerlink" title="1. 横向流程图"></a>1. 横向流程图</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR;</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a&#x3D;1| D[结果1]</span><br><span class="line">    C --&gt;|a&#x3D;2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<h2 id="2-竖向流程图"><a href="#2-竖向流程图" class="headerlink" title="2. 竖向流程图"></a>2. 竖向流程图</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph TD;</span><br><span class="line">A[方形] --&gt; B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt; |a&#x3D;1| D[结果1]</span><br><span class="line">    C --&gt; |a&#x3D;2| E[结果2]</span><br><span class="line">    F[竖向流程图]</span><br></pre></td></tr></table></figure>
-
-<h2 id="3-标准流程图"><a href="#3-标准流程图" class="headerlink" title="3. 标准流程图"></a>3. 标准流程图</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">st&#x3D;&gt;start: 开始框</span><br><span class="line">op&#x3D;&gt;operation: 处理框</span><br><span class="line">cond&#x3D;&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1&#x3D;&gt;subroutine: 子流程</span><br><span class="line">io&#x3D;&gt;inputoutput: 输入输出框</span><br><span class="line">e&#x3D;&gt;end: 结束框</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br></pre></td></tr></table></figure>
-
-<h2 id="4-标准流程图（横向）"><a href="#4-标准流程图（横向）" class="headerlink" title="4. 标准流程图（横向）"></a>4. 标准流程图（横向）</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">st&#x3D;&gt;start: 开始框</span><br><span class="line">op&#x3D;&gt;operation: 处理框</span><br><span class="line">cond&#x3D;&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1&#x3D;&gt;subroutine: 子流程</span><br><span class="line">io&#x3D;&gt;inputoutput: 输入输出框</span><br><span class="line">e&#x3D;&gt;end: 结束框</span><br><span class="line">st(right)-&gt;op(right)-&gt;cond</span><br><span class="line">cond(yes)-&gt;io(bottom)-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br></pre></td></tr></table></figure>
-
-<h2 id="5-UML时序图样例"><a href="#5-UML时序图样例" class="headerlink" title="5. UML时序图样例"></a>5. UML时序图样例</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br></pre></td></tr></table></figure>
-
-<h2 id="6-UML时序图复杂样例"><a href="#6-UML时序图复杂样例" class="headerlink" title="6. UML时序图复杂样例"></a>6. UML时序图复杂样例</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Title: 标题：复杂使用</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象B-&gt;小三: 你好吗</span><br><span class="line">小三--&gt;&gt;对象A: 对象B找我了</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">Note over 小三,对象B: 我们是朋友</span><br><span class="line">participant C</span><br><span class="line">Note right of C: 没人陪我玩</span><br></pre></td></tr></table></figure>
-
-<h2 id="7-UML标准时序图样例"><a href="#7-UML标准时序图样例" class="headerlink" title="7. UML标准时序图样例"></a>7. UML标准时序图样例</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span><br><span class="line">  sequenceDiagram</span><br><span class="line">    participant 张三</span><br><span class="line">    participant 李四</span><br><span class="line">    张三-&gt;王五: 王五你好吗？</span><br><span class="line">    loop 健康检查</span><br><span class="line">        王五-&gt;王五: 与疾病战斗</span><br><span class="line">    end</span><br><span class="line">    Note right of 王五: 合理 食物 &lt;br&#x2F;&gt;看医生...</span><br><span class="line">    李四--&gt;&gt;张三: 很好!</span><br><span class="line">    王五-&gt;李四: 你怎么样?</span><br><span class="line">    李四--&gt;王五: 很好!</span><br></pre></td></tr></table></figure>
-
-<h2 id="8-甘特图样例"><a href="#8-甘特图样例" class="headerlink" title="8. 甘特图样例"></a>8. 甘特图样例</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">%% 语法示例</span><br><span class="line">        gantt</span><br><span class="line">        dateFormat  YYYY-MM-DD</span><br><span class="line">        title 软件开发甘特图</span><br><span class="line">        section 设计</span><br><span class="line">        需求：done, des1, 2014-01-06,2014-01-08</span><br><span class="line">        原型：active, des2, 2014-01-09, 3d</span><br><span class="line">        UI设计：des3, after des2, 5d</span><br><span class="line">    未来任务：des4, after des3, 5d</span><br><span class="line">        section 开发</span><br><span class="line">        学习准备理解需求：crit, done, 2014-01-06,24h</span><br><span class="line">        设计框架：crit, done, after des2, 2d</span><br><span class="line">        开发：crit, active, 3d</span><br><span class="line">        未来任务：crit, 5d</span><br><span class="line">        耍：2d</span><br><span class="line">        section 测试</span><br><span class="line">        功能测试：active, a1, after des3, 3d</span><br><span class="line">        压力测试：after a1, 20h</span><br><span class="line">        测试报告：48h</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mac知识整合</title>
-    <url>/2019/02/01/2019-02-02-Mac%E7%9F%A5%E8%AF%86%E6%95%B4%E5%90%88/</url>
-    <content><![CDATA[<h3 id="DS-Store-文件是什么？"><a href="#DS-Store-文件是什么？" class="headerlink" title=".DS_Store 文件是什么？"></a>.DS_Store 文件是什么？</h3><p>.DS_Store 是 Mac OS 保存文件夹的自定义属性的隐藏文件，如文件的图标位置或背景色，相当于 Windows 的 desktop.ini。</p>
-<p>1，禁止.DS_store 生成：<br>打开 “终端” ，复制黏贴下面的命令，回车执行，重启Mac即可生效。</p>
-<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE</span><br></pre></td></tr></table></figure>
-
-<p>2，恢复.DS_store生成：</p>
-<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">defaults delete com.apple.desktopservices DSDontWriteNetworkStores</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<h3 id="显示隐藏文件"><a href="#显示隐藏文件" class="headerlink" title="显示隐藏文件"></a>显示隐藏文件</h3><p>在终端执行命令，显示隐藏文件</p>
-<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">defaults write com.apple.finder AppleShowAllFiles -bool <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>恢复隐藏</p>
-<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">defaults write com.apple.finder AppleShowAllFiles -bool <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-<p>执行命令后需要重新打开能看到效果。</p>
-<h3 id="切换-Pyhton-环境"><a href="#切换-Pyhton-环境" class="headerlink" title="切换 Pyhton 环境"></a>切换 Pyhton 环境</h3><p>我本地之前 Python 环境是 2.7.10 ，然后学习 Tensorflow 的时候，安装了 Python 3.5.2 ，把系统默认 Pyton 环境也设置成了 3.5.2 版本，今天运行以前写的 python 脚本发现运行不了了，因为python 2.7 和 3.5 的 语法有挺多改动，现在我需要把系统的 python 环境回退到 2.7。</p>
-<p>可以直接修改 <code>~/.bash_profile</code> 文件。</p>
-<ul>
-<li>1、修改 <code>vim ~/.bash_profile</code></li>
-</ul>
-<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">修改方式有很多种，使用 vim  ，或者 <span class="built_in">cd</span> ~/ 然后 open . 打开文件夹，找到 .bash_profile 文件，双击打开。</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>2、在<code>.bash_profile</code> 文件里添加下面参数</li>
-</ul>
-<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">alias</span> python=<span class="string">&quot;/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7&quot;</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>3、使用命令 <code>source ~/.bash_profile</code> 或者重启 终端 就 OK 了。</li>
-</ul>
-<p>现在你再在终端输入 <code>python</code> 就会发现，显示的信息为 2.7 了</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Python 2.7.10 (default, Oct 23 2015, 19:19:21)</span><br><span class="line">[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin</span><br><span class="line">Type <span class="string">&quot;help&quot;</span>, <span class="string">&quot;copyright&quot;</span>, <span class="string">&quot;credits&quot;</span> or <span class="string">&quot;license&quot;</span> <span class="keyword">for</span> more information.</span><br></pre></td></tr></table></figure>
-
-<h3 id="生成SSHKey过程"><a href="#生成SSHKey过程" class="headerlink" title="生成SSHKey过程"></a>生成SSHKey过程</h3><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">1.查看是否已经有了ssh密钥：`<span class="built_in">cd</span> ~/.ssh` ，如果没有密钥则不会有此文件夹，有则备份删除。</span><br><span class="line">2.生存密钥：ssh-keygen -t rsa -C “<span class="built_in">test</span>@gmail.com”。按3个回车，密码为空。</span><br><span class="line"></span><br><span class="line">Your identification has been saved <span class="keyword">in</span> /home/tekkub/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved <span class="keyword">in</span> /home/tekkub/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">………………    </span><br><span class="line">最后得到了两个文件：id_rsa和id_rsa.pub</span><br></pre></td></tr></table></figure>
-
-<h3 id="使用版本控制器-SVN-versions-添加-a库"><a href="#使用版本控制器-SVN-versions-添加-a库" class="headerlink" title="使用版本控制器 SVN (versions) 添加.a库"></a>使用版本控制器 SVN (versions) 添加.a库</h3><p>Xcode 自带的 svn 和 Versions 以及一些其它工具都不能上传”.a”文件</p>
-<p>下面是在 Mac 上如何把 .a 添加到 SVN 里面的</p>
-<p>1、打开终端，输入cd，空格，然后将需要上传的 .a 文件所在的文件夹（不是.a文件） 拖拽到终端（此办法无需输入繁琐的路径，快捷方便） 回车</p>
-<p>2、之后再输入如下命令：<code>svn add libGoogleAnalytics.a</code> ，回车</p>
-<p>之后会出现：A (bin) libGoogleAnalytics.a</p>
-<p>表示添加成功，打开 Versions 就可以看到，刚才添加的 .a 文件，此时就可以手动上传了。</p>
-<p>另外，请注意路径的正确性。</p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>MAC</tag>
-        <tag>OSX</tag>
-        <tag>苹果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown工具集</title>
-    <url>/2019/02/02/2019-02-03-Markdown%E5%B7%A5%E5%85%B7%E9%9B%86/</url>
-    <content><![CDATA[<h3 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown"></a>什么是 Markdown</h3><p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：如您正在阅读的这篇文章。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字.</p>
-<p>很多产品的文档也是用 markdown 编写的，并且以“README.MD”的文件名保存在软件的目录下面。</p>
-<span id="more"></span>
-
-<h3 id="一些基本语法"><a href="#一些基本语法" class="headerlink" title="一些基本语法"></a>一些基本语法</h3><p>标题<br>H1 :# Header 1<br>H2 :## Header 2<br>H3 :### Header 3<br>H4 :#### Header 4<br>H5 :##### Header 5<br>H6 :###### Header 6<br>链接 :<a href="URL">Title</a><br>加粗 :<strong>Bold</strong><br>斜体字 :<em>Italics</em><br><em>删除线 :<del>text</del><br>段落 : 段落之间空一行<br>换行符 : 一行结束时输入两个空格<br>列表 :</em> 添加星号成为一个新的列表项。<br>引用 :&gt; 引用内容<br>内嵌代码 : <code>alert(&#39;Hello World&#39;);</code><br>画水平线 (HR) :——–</p>
-<p>css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样，下面这些链接里面有 markdown 基本语法，你也可以在下面几个平台上尝试着写一些。</p>
-<h3 id="一些好用的-Markdown-编辑器"><a href="#一些好用的-Markdown-编辑器" class="headerlink" title="一些好用的 Markdown 编辑器"></a>一些好用的 Markdown 编辑器</h3><p><a href="http://mdp.tylingsoft.com/">Markdown Plus</a> 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。</p>
-<p><img src="/images/posts/markdown/image2.png" alt="image2.png"></p>
-<p><a href="https://www.zybuluo.com/cmd/?utm_source=mindstore.io">Cmd Markdown</a> 作业部落在线 Markdown 编辑器推出桌面版客户端啦，全平台支援。</p>
-<p><img src="/images/posts/markdown/image3.png" alt="image3.png"></p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>机器学习入门（名词解释）</title>
-    <url>/2019/02/04/2019-02-05-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%88%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A%EF%BC%89/</url>
-    <content><![CDATA[<h3 id="通用名词"><a href="#通用名词" class="headerlink" title="通用名词"></a>通用名词</h3><h4 id="ML"><a href="#ML" class="headerlink" title="ML"></a>ML</h4><p>　　<strong>名词解释：</strong> 机器学习(Machine Learning)是一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、算法复杂度理论等多门学科。专门研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能，重新组织已有的知识结构使之不断改善自身的性能。它是人工智能的核心，是使计算机具有智能的根本途径，其应用遍及人工智能的各个领域，它主要使用归纳、综合而不是演绎。</p>
-<span id="more"></span>
-
-<h4 id="DL"><a href="#DL" class="headerlink" title="DL"></a>DL</h4><p>　　<strong>名词解释：</strong> 深度学习（Deep Learning）是机器学习拉出的分支，它试图使用包含复杂结构或由多重非线性变换构成的多个处理层对数据进行高层抽象的算法。深度学习是机器学习中表征学习方法。观测值（例如一幅图像）可以使用多种方式来表示，如每个像素强度值的矢量，或者更抽象地表示成一系列边、特定形状的区域等。而使用某些特定的表示方法更容易从实例中学习任务（例如，人脸识别或面部表情识别）。深度学习的好处是将用非监督式或半监督式的特征学习和分层特征提取的高效算法来替代手工获取特征。</p>
-<h4 id="CNN"><a href="#CNN" class="headerlink" title="CNN"></a>CNN</h4><p>　　<strong>名词解释：</strong> 卷积神经网络（Convolutional neural networks，简称CNNs）是一种深度的监督学习下的机器学习模型。</p>
-<h3 id="算法名词"><a href="#算法名词" class="headerlink" title="算法名词"></a>算法名词</h3><h4 id="KNN"><a href="#KNN" class="headerlink" title="KNN"></a>KNN</h4><p>　　<strong>名词解释：</strong> 邻近算法，或者说K最近邻(kNN，k-NearestNeighbor)分类算法。邻近算法是数据挖掘分类技术中最简单的方法之一。所谓K最近邻，就是k个最近的邻居的意思，说的是每个样本都可以用它最接近的k个邻居来代表。kNN算法的核心思想是如果一个样本在特征空间中的k个最相邻的样本中的大多数属于某一个类别，则该样本也属于这个类别，并具有这个类别上样本的特性。该方法在确定分类决策上只依据最邻近的一个或者几个样本的类别来决定待分样本所属的类别。 kNN方法在类别决策时，只与极少量的相邻样本有关。由于kNN方法主要靠周围有限的邻近的样本，而不是靠判别类域的方法来确定所属类别的，因此对于类域的交叉或重叠较多的待分样本集来说，kNN方法较其他方法更为适合。</p>
-<h4 id="SVM"><a href="#SVM" class="headerlink" title="SVM"></a>SVM</h4><p>　　<strong>名词解释：</strong> 支持向量机（Support Vector Machine）。在机器学习领域，支持向量机SVM(Support Vector Machine)是一个有监督的学习模型，通常用来进行模式识别、分类、以及回归分析。</p>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>两数之和</title>
-    <url>/2021/02/17/Algorithm/2021-02-18-LeetCode-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</url>
-    <content><![CDATA[<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回它们的数组下标。<br>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。<br>你可以按任意顺序返回答案。</p>
-<span id="more"></span>
-
-<ul>
-<li><h4 id="示例1"><a href="#示例1" class="headerlink" title="示例1"></a>示例1</h4></li>
-</ul>
-<p>输入：nums = [2,7,11,15], target = 9<br>输出：[0,1]<br>解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。  </p>
-<ul>
-<li><h4 id="示例2"><a href="#示例2" class="headerlink" title="示例2"></a>示例2</h4></li>
-</ul>
-<p>输入：nums = [3,2,4], target = 6<br>输出：[1,2]  </p>
-<ul>
-<li><h4 id="示例3"><a href="#示例3" class="headerlink" title="示例3"></a>示例3</h4></li>
-</ul>
-<p>输入：nums = [3,3], target = 6<br>输出：[0,1]  </p>
-<ul>
-<li><h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4></li>
-</ul>
-<p>2 &lt;= nums.length &lt;= 103<br>-109 &lt;= nums[i] &lt;= 109<br>-109 &lt;= target &lt;= 109<br>只会存在一个有效答案  </p>
-<blockquote>
-<p>链接：<a href="https://leetcode-cn.com/problems/two-sum">https://leetcode-cn.com/problems/two-sum</a></p>
-</blockquote>
-<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><ul>
-<li><h4 id="题解1"><a href="#题解1" class="headerlink" title="题解1"></a>题解1</h4></li>
-</ul>
-<p>C#，两次遍历，暴力破解</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">int</span>[] <span class="title">TwoSum</span>(<span class="params"><span class="built_in">int</span>[] nums, <span class="built_in">int</span> target</span>) </span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="built_in">int</span>[] result = <span class="keyword">new</span> <span class="built_in">int</span>[<span class="number">2</span>];</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; nums.Length; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="built_in">int</span> j = i + <span class="number">1</span>; j &lt; nums.Length; j++)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target)</span><br><span class="line">                &#123;</span><br><span class="line">                    result[<span class="number">0</span>] = i;</span><br><span class="line">                    result[<span class="number">1</span>] = j;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><h4 id="题解2"><a href="#题解2" class="headerlink" title="题解2"></a>题解2</h4></li>
-</ul>
-<p>C#，利用字典来实现</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">int</span>[] <span class="title">TwoSum</span>(<span class="params"><span class="built_in">int</span>[] nums, <span class="built_in">int</span> target</span>) </span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="built_in">int</span>[] result = <span class="keyword">new</span> <span class="built_in">int</span>[<span class="number">2</span>];</span><br><span class="line">        Dictionary&lt;<span class="built_in">int</span>, <span class="built_in">int</span>&gt; dic = <span class="keyword">new</span> Dictionary&lt;<span class="built_in">int</span>, <span class="built_in">int</span>&gt;();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; nums.Length; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(dic.ContainsKey(target - nums[i]))</span><br><span class="line">            &#123;</span><br><span class="line">                result[<span class="number">0</span>] = dic[target - nums[i]];</span><br><span class="line">                result[<span class="number">1</span>] = i;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(!dic.ContainsKey(nums[i]))</span><br><span class="line">            &#123;</span><br><span class="line">                dic.Add(nums[i], i);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-        <tag>LeetCode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>整数反转</title>
-    <url>/2021/02/18/Algorithm/2021-02-19-LeetCode-%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC/</url>
-    <content><![CDATA[<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>给你一个32位的有符号整数x，返回x中每位上的数字反转后的结果。<br>如果反转后整数超过32位的有符号整数的范围[−2^31, 2^31 − 1]，就返回0。<br>假设环境不允许存储64位整数（有符号或无符号）。</p>
-<span id="more"></span>
-
-<ul>
-<li><h4 id="示例1"><a href="#示例1" class="headerlink" title="示例1"></a>示例1</h4></li>
-</ul>
-<p>输入：x = 123<br>输出：321</p>
-<ul>
-<li><h4 id="示例2"><a href="#示例2" class="headerlink" title="示例2"></a>示例2</h4></li>
-</ul>
-<p>输入：x = -123<br>输出：-321</p>
-<ul>
-<li><h4 id="示例3"><a href="#示例3" class="headerlink" title="示例3"></a>示例3</h4></li>
-</ul>
-<p>输入：x = 120<br>输出：21</p>
-<ul>
-<li><h4 id="示例4"><a href="#示例4" class="headerlink" title="示例4"></a>示例4</h4></li>
-</ul>
-<p>输入：x = 0<br>输出：0</p>
-<ul>
-<li><h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4></li>
-</ul>
-<p>-2^31 &lt;= x &lt;= 2^31 - 1</p>
-<blockquote>
-<p>链接：<a href="https://leetcode-cn.com/problems/reverse-integer">https://leetcode-cn.com/problems/reverse-integer</a></p>
-</blockquote>
-<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><ul>
-<li><h4 id="题解1"><a href="#题解1" class="headerlink" title="题解1"></a>题解1</h4></li>
-</ul>
-<p>逐位分析，将负数转成整数，统一处理</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">Reverse</span>(<span class="params"><span class="built_in">int</span> x</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="keyword">if</span> (x == <span class="built_in">int</span>.MinValue)  <span class="comment">// 确保下面去绝对值时，不会异常</span></span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">int</span> result = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">int</span> symbol = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span>) symbol = <span class="number">-1</span>;</span><br><span class="line">        x = Math.Abs(x);</span><br><span class="line"></span><br><span class="line">        <span class="built_in">int</span> i;</span><br><span class="line">        <span class="keyword">while</span> (x &gt; <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            i = x % <span class="number">10</span>;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">try</span></span><br><span class="line">            &#123;</span><br><span class="line">                result = checked(result * <span class="number">10</span> + i);  <span class="comment">// 默认情况下，C＃整数运算不会在溢出时引发异常，这个是为了使其引发异常</span></span><br><span class="line">            &#125;</span><br><span class="line">            catch (OverflowException)</span><br><span class="line">            &#123;</span><br><span class="line">                result = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (symbol == <span class="number">-1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">try</span></span><br><span class="line">            &#123;</span><br><span class="line">                result = checked(result * <span class="number">-1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            catch (OverflowException)</span><br><span class="line">            &#123;</span><br><span class="line">                result = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><h4 id="题解2"><a href="#题解2" class="headerlink" title="题解2"></a>题解2</h4></li>
-</ul>
-<p>逐位分析，优化版</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">Reverse</span>(<span class="params"><span class="built_in">int</span> x</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="built_in">int</span> result = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">int</span> i;</span><br><span class="line">        <span class="keyword">while</span> (x != <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            i = x % <span class="number">10</span>;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">try</span></span><br><span class="line">            &#123;</span><br><span class="line">                result = checked(result * <span class="number">10</span> + i);</span><br><span class="line">            &#125;</span><br><span class="line">            catch (OverflowException)</span><br><span class="line">            &#123;</span><br><span class="line">                result = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><h4 id="题解3"><a href="#题解3" class="headerlink" title="题解3"></a>题解3</h4></li>
-</ul>
-<p>逐位分析，借助List</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">Reverse</span>(<span class="params"><span class="built_in">int</span> x</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="built_in">int</span> result = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        List&lt;<span class="built_in">int</span>&gt; digits = <span class="keyword">new</span> List&lt;<span class="built_in">int</span>&gt;();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (x != <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            digits.Add(x % <span class="number">10</span>);</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; digits.Count; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">try</span></span><br><span class="line">            &#123;</span><br><span class="line">                result = checked(result * <span class="number">10</span> + digits[i]);</span><br><span class="line">            &#125;</span><br><span class="line">            catch (OverflowException)</span><br><span class="line">            &#123;</span><br><span class="line">                result = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-        <tag>LeetCode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>回文数</title>
-    <url>/2021/02/21/Algorithm/2021-02-22-LeetCode-%E5%9B%9E%E6%96%87%E6%95%B0/</url>
-    <content><![CDATA[<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>给你一个整数x，如果x是一个回文整数，返回true；否则，返回false。<br>回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。例如，121是回文，而123不是。</p>
-<span id="more"></span>
-
-<ul>
-<li><h4 id="示例1"><a href="#示例1" class="headerlink" title="示例1"></a>示例1</h4></li>
-</ul>
-<p>输入：x = 121<br>输出：true</p>
-<ul>
-<li><h4 id="示例2"><a href="#示例2" class="headerlink" title="示例2"></a>示例2</h4></li>
-</ul>
-<p>输入：x = -121<br>输出：false<br>解释：从左向右读, 为-121 。 从右向左读, 为121- 。因此它不是一个回文数。</p>
-<ul>
-<li><h4 id="示例3"><a href="#示例3" class="headerlink" title="示例3"></a>示例3</h4></li>
-</ul>
-<p>输入：x = 10<br>输出：false<br>解释：从右向左读, 为01 。因此它不是一个回文数。</p>
-<ul>
-<li><h4 id="示例4"><a href="#示例4" class="headerlink" title="示例4"></a>示例4</h4></li>
-</ul>
-<p>输入：x = -101<br>输出：false</p>
-<ul>
-<li><h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4></li>
-</ul>
-<p>-2^31 &lt;= x &lt;= 2^31 - 1</p>
-<ul>
-<li><h4 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h4></li>
-</ul>
-<p>你能不将整数转为字符串来解决这个问题吗？</p>
-<blockquote>
-<p>链接：<a href="https://leetcode-cn.com/problems/palindrome-number">https://leetcode-cn.com/problems/palindrome-number</a></p>
-</blockquote>
-<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><ul>
-<li><h4 id="题解1"><a href="#题解1" class="headerlink" title="题解1"></a>题解1</h4></li>
-</ul>
-<p>利用反转字符串来实现</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">bool</span> <span class="title">IsPalindrome</span>(<span class="params"><span class="built_in">int</span> x</span>)</span> &#123;</span><br><span class="line">        <span class="built_in">string</span> intstr = x.ToString();</span><br><span class="line">        <span class="built_in">string</span> strrev = <span class="keyword">new</span> <span class="built_in">string</span>(intstr.Reverse().ToArray());</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> intstr == strrev;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><h4 id="题解2"><a href="#题解2" class="headerlink" title="题解2"></a>题解2</h4></li>
-</ul>
-<p>反转数字，然后比较反转后与反转前的数字</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">bool</span> <span class="title">IsPalindrome</span>(<span class="params"><span class="built_in">int</span> x</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (x &lt; <span class="number">10</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">int</span> y = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">            <span class="built_in">int</span> temp = x;</span><br><span class="line">            <span class="keyword">while</span> (temp &gt; <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                y = y * <span class="number">10</span> + temp % <span class="number">10</span>;</span><br><span class="line">                temp /= <span class="number">10</span>;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> x == y;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><h4 id="题解3"><a href="#题解3" class="headerlink" title="题解3"></a>题解3</h4></li>
-</ul>
-<p>逐位分析数字的构成来实现</p>
-<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">bool</span> <span class="title">IsPalindrome</span>(<span class="params"><span class="built_in">int</span> x</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (x &lt; <span class="number">10</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">bool</span> result = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line">            uint intlen = (uint)Math.Floor(Math.Log10(x) + <span class="number">1</span>);</span><br><span class="line">            <span class="keyword">for</span> (uint i = <span class="number">1</span>; i &lt;= intlen / <span class="number">2</span>; i++)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">if</span> (GetDigitFromLeft(x, i) != GetDigitFromRight(x, i))</span><br><span class="line">                &#123;</span><br><span class="line">                    result = <span class="literal">false</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> result;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//返回整型num左数第i位的数字</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="built_in">int</span> <span class="title">GetDigitFromLeft</span>(<span class="params"><span class="built_in">int</span> num, uint i</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        uint intlen = (uint)Math.Floor(Math.Log10(num) + <span class="number">1</span>);</span><br><span class="line">        <span class="keyword">if</span> (i &gt; intlen)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> GetDigitFromRight(num, intlen + <span class="number">1</span> - i);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//返回整型num右数第i位的数字</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="built_in">int</span> <span class="title">GetDigitFromRight</span>(<span class="params"><span class="built_in">int</span> num, uint i</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        uint intlen = (uint)Math.Floor(Math.Log10(num) + <span class="number">1</span>);</span><br><span class="line">        <span class="keyword">if</span> (i &gt; intlen)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (i &gt; <span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            num /= <span class="number">10</span>;</span><br><span class="line">            i--;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> num % <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-        <tag>LeetCode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>link与base标签</title>
-    <url>/2021/02/20/Front-End/2021-02-21-HTML5_link%E4%B8%8Ebase%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<h3 id="link标签"><a href="#link标签" class="headerlink" title="link标签"></a>link标签</h3><ul>
-<li><h4 id="引用打印模式下的样式表"><a href="#引用打印模式下的样式表" class="headerlink" title="引用打印模式下的样式表"></a>引用打印模式下的样式表</h4></li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">media</span>=<span class="string">&quot;print&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./css/print.css&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<ul>
-<li><h4 id="引用特定状态下的样式表"><a href="#引用特定状态下的样式表" class="headerlink" title="引用特定状态下的样式表"></a>引用特定状态下的样式表</h4></li>
-</ul>
-<p>设置在显示器上显示时，同时页面宽度在[512px, 1024px]之间时的样式</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&lt;link</span><br><span class="line">    rel=&quot;stylesheet&quot;</span><br><span class="line">    type=&quot;text/css&quot;</span><br><span class="line">    media=&quot;screen and (min-width: 512px) and (max-width: 1024px)&quot;</span><br><span class="line">    href=&quot;./css/screen512to1024.css&quot;</span><br><span class="line">/&gt;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><h4 id="设置网站图标"><a href="#设置网站图标" class="headerlink" title="设置网站图标"></a>设置网站图标</h4></li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;icon&quot;</span> <span class="attr">type</span>=<span class="string">&quot;image/x-icon&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./favicon.ico&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="base标签"><a href="#base标签" class="headerlink" title="base标签"></a>base标签</h3><ul>
-<li><h4 id="设置当前页面的基准url"><a href="#设置当前页面的基准url" class="headerlink" title="设置当前页面的基准url"></a>设置当前页面的基准url</h4></li>
-</ul>
-<p>base元素设置的基准url只影响相对路径，不影响绝对路径<br>如果页面没有使用base元素设置基准url，那么页面的a元素等元素的相对路径都是相对于当前页面的路径的，如果设置了，那么就是相对于设置好了的基准url</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">base</span> <span class="attr">href</span>=<span class="string">&quot;http://byteswitch.cn/MyTest/javascript/jquery/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>meta标签</title>
-    <url>/2021/02/20/Front-End/2021-02-21-HTML5_meta%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<h3 id="meta标签"><a href="#meta标签" class="headerlink" title="meta标签"></a>meta标签</h3><ul>
-<li><h4 id="网页在不同终端自适应"><a href="#网页在不同终端自适应" class="headerlink" title="网页在不同终端自适应"></a>网页在不同终端自适应</h4></li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<ul>
-<li><h4 id="通过meta标签添加seo相关信息"><a href="#通过meta标签添加seo相关信息" class="headerlink" title="通过meta标签添加seo相关信息"></a>通过meta标签添加seo相关信息</h4></li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">content</span>=<span class="string">&quot;自学web, 测试页面, html5, css3, javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;自学网页制作测试网站&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;author&quot;</span> <span class="attr">content</span>=<span class="string">&quot;michael brucelin&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><h4 id="自动刷新页面和自动跳转"><a href="#自动刷新页面和自动跳转" class="headerlink" title="自动刷新页面和自动跳转"></a>自动刷新页面和自动跳转</h4></li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;300&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;60; https://www.baidu.com&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;0; https://www.baidu.com&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>script与noscript标签</title>
-    <url>/2021/02/20/Front-End/2021-02-21-HTML5_script%E4%B8%8Enoscript%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<h3 id="script标签"><a href="#script标签" class="headerlink" title="script标签"></a>script标签</h3><ul>
-<li><h4 id="延迟执行脚本"><a href="#延迟执行脚本" class="headerlink" title="延迟执行脚本"></a>延迟执行脚本</h4></li>
-</ul>
-<p>如果script元素放在head元素内，那么页面会先执行其引用的脚本，然后再加载页面，如果想在页面加载完成后再执行其引用的脚本，通常做法是将script元素放在body元素的最后<br>还有一种做法是，仍然将script元素放在head元素内，然后给script元素指定defer属性<br>需要注意的是，defer属性只对外部链接脚本文件有效，对script元素的内嵌脚本无效</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;javascript.js&quot;</span> <span class="attr">defer</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<ul>
-<li><h4 id="异步执行脚本"><a href="#异步执行脚本" class="headerlink" title="异步执行脚本"></a>异步执行脚本</h4></li>
-</ul>
-<p>如果script元素引用的脚本是广告脚本等，与网页没有太大关系，而且有可能会加载失败，可以使用async属性，让脚本异步执行，这样就不会影响整个网页的加载了<br>需要注意的是，async属性只对外部链接脚本文件有效，对script元素的内嵌脚本无效</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;javascript.js&quot;</span> <span class="attr">async</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="noscript标签"><a href="#noscript标签" class="headerlink" title="noscript标签"></a>noscript标签</h3><p>如果页面支持javascript，会显示noscript元素中的内容，noscript元素内可以是其他html元素</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">noscript</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>对不起，你的浏览器当前不支持javascript，影响您正常使用网站。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">noscript</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>style标签</title>
-    <url>/2021/02/20/Front-End/2021-02-21-HTML5_style%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<h3 id="style标签"><a href="#style标签" class="headerlink" title="style标签"></a>style标签</h3><ul>
-<li><h4 id="设置打印模式下的样式"><a href="#设置打印模式下的样式" class="headerlink" title="设置打印模式下的样式"></a>设置打印模式下的样式</h4></li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">media</span>=<span class="string">&quot;print&quot;</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-tag">p</span> &#123;</span></span><br><span class="line"><span class="css">        <span class="attribute">color</span>: black;</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<ul>
-<li><h4 id="设置特定状态下的样式"><a href="#设置特定状态下的样式" class="headerlink" title="设置特定状态下的样式"></a>设置特定状态下的样式</h4></li>
-</ul>
-<p>设置在显示器上显示时，同时页面宽度在[512px, 1024px]之间时的样式</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">media</span>=<span class="string">&quot;screen and (min-width: 512px) and (max-width: 1024px)&quot;</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-tag">p</span> &#123;</span></span><br><span class="line"><span class="css">        <span class="attribute">color</span>: red;</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>老子第一章 輪德</title>
-    <url>/2020/03/25/LaoZi/2020-03-26-%E8%80%81%E5%AD%9001_%E8%AE%BA%E5%BE%B7/</url>
+    <url>/2020/03/25/LaoZi/%E8%80%81%E5%AD%9001_%E8%AE%BA%E5%BE%B7/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>上德不德，是以有德；下德不失德，是以无德。</strong><br><strong>上德无為，而无以為也；上仁為之，而无以為也；上義為之，而有以為也。上禮為之，而莫之應也，則攘臂而乃之。</strong><br><strong>故失道而後德，失德而後仁，失仁而後義，失義而後禮。夫禮者，忠信之泊也，而亂之首也。</strong><br><strong>前識者，道之華也，而愚之首也。</strong><br><strong>是以大丈夫居其厚，而不居其泊；居其實，而不居其華。故去皮取此。</strong></p>
 <span id="more"></span>
 
@@ -551,7 +34,7 @@
   </entry>
   <entry>
     <title>老子第二章 得一</title>
-    <url>/2020/03/26/LaoZi/2020-03-27-%E8%80%81%E5%AD%9002_%E5%BE%97%E4%B8%80/</url>
+    <url>/2020/03/26/LaoZi/%E8%80%81%E5%AD%9002_%E5%BE%97%E4%B8%80/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>昔之得一者：天得一以清，地得一以寧，神得一以霝，浴得一以盈，侯王得一以為天下正。其至之也。</strong><br><strong>謂天毋已清將恐裂，謂地毋已寧將恐發，謂神毋已霝將恐歇，謂浴毋已盈將恐竭，謂侯王毋已貴以高將恐蹶。</strong><br><strong>故必貴而以賤為本，必高矣而以下為基。</strong><br><strong>夫是以侯王自謂孤、寡、不gu<code>（壹字上部 + 禾）</code>。此其賤之為本與？非也！</strong><br><strong>故致數與无與，是故不欲祿祿若玉，硌硌若石。</strong></p>
 <span id="more"></span>
 
@@ -574,7 +57,7 @@
   </entry>
   <entry>
     <title>老子第三章 聞道</title>
-    <url>/2020/03/27/LaoZi/2020-03-28-%E8%80%81%E5%AD%9003_%E9%97%BB%E9%81%93/</url>
+    <url>/2020/03/27/LaoZi/%E8%80%81%E5%AD%9003_%E9%97%BB%E9%81%93/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>上士聞道，堇能行之；中士聞道，若存若亡；下士聞道，大笑之。弗笑不足以為道。</strong><br><strong>是以建言有之曰：明道如費，進道如退，夷道如類；上德如浴，大白如辱，廣德如不足，建德如論，質真如渝；大方无隅，大器晚成，大音希聲；天象无刑，道隱无名。</strong><br><strong>夫唯道，善始且善成。</strong></p>
 <span id="more"></span>
 
@@ -597,7 +80,7 @@
   </entry>
   <entry>
     <title>老子第四章 反復</title>
-    <url>/2020/03/28/LaoZi/2020-03-29-%E8%80%81%E5%AD%9004_%E5%8F%8D%E5%A4%8D/</url>
+    <url>/2020/03/28/LaoZi/%E8%80%81%E5%AD%9004_%E5%8F%8D%E5%A4%8D/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>反也者，道之動也；弱也者。道之用也。</strong><br><strong>天下之物生於有，有生於无。</strong></p>
 <span id="more"></span>
 
@@ -620,7 +103,7 @@
   </entry>
   <entry>
     <title>老子第五章 中和</title>
-    <url>/2020/03/29/LaoZi/2020-03-30-%E8%80%81%E5%AD%9005_%E4%B8%AD%E5%92%8C/</url>
+    <url>/2020/03/29/LaoZi/%E8%80%81%E5%AD%9005_%E4%B8%AD%E5%92%8C/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>道生一，一生二，二生三，三生萬物。</strong><br><strong>萬物負陰而抱陽，中氣以為和。</strong><br><strong>天下之所惡，唯孤、寡、不榖，而王公以為自名也。</strong><br><strong>勿或sun<code>（損字右部 + 教字右部）</code>之而益，或益之而sun。</strong><br><strong>覲殷死，議而教人。</strong><br><strong>故強良者不得死，我將以為學父。</strong></p>
 <span id="more"></span>
 
@@ -641,7 +124,7 @@
   </entry>
   <entry>
     <title>老子第六章 至柔</title>
-    <url>/2020/03/30/LaoZi/2020-03-31-%E8%80%81%E5%AD%9006_%E8%87%B3%E6%9F%94/</url>
+    <url>/2020/03/30/LaoZi/%E8%80%81%E5%AD%9006_%E8%87%B3%E6%9F%94/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>天下之至柔，馳騁於天下之致堅。</strong><br><strong>无有入於无閒，吾是以知无為之有益。</strong><br><strong>不言之教，无為之益，天下希能及之矣。</strong></p>
 <span id="more"></span>
 
@@ -664,7 +147,7 @@
   </entry>
   <entry>
     <title>老子第七章 立戒</title>
-    <url>/2020/03/31/LaoZi/2020-04-01-%E8%80%81%E5%AD%9007_%E7%AB%8B%E6%88%92/</url>
+    <url>/2020/03/31/LaoZi/%E8%80%81%E5%AD%9007_%E7%AB%8B%E6%88%92/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>名與身孰親？身與貨孰多？得與亡孰病？</strong><br><strong>甚愛必大費，多藏必厚亡。</strong><br><strong>故知足不辱，知止不殆，可以長久。</strong></p>
 <span id="more"></span>
 
@@ -685,7 +168,7 @@
   </entry>
   <entry>
     <title>老子第八章 請靚</title>
-    <url>/2020/04/01/LaoZi/2020-04-02-%E8%80%81%E5%AD%9008_%E8%AF%B7%E9%9D%93/</url>
+    <url>/2020/04/01/LaoZi/%E8%80%81%E5%AD%9008_%E8%AF%B7%E9%9D%93/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>大成若缺，其用不幣；大盈若chong<code>（洗左部+盅）</code>，其用不qiong<code>（宀+郡）</code>；大直若詘，大巧若拙，大贏若㶧。</strong><br><strong>趮勝寒，靚勝炅。請靚可以為天下正。</strong></p>
 <span id="more"></span>
 
@@ -708,7 +191,7 @@
   </entry>
   <entry>
     <title>老子第九章 知足</title>
-    <url>/2020/04/02/LaoZi/2020-04-03-%E8%80%81%E5%AD%9009_%E7%9F%A5%E8%B6%B3/</url>
+    <url>/2020/04/02/LaoZi/%E8%80%81%E5%AD%9009_%E7%9F%A5%E8%B6%B3/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>天下有道，卻走馬以糞；天下无道，戎馬生於郊。</strong><br><strong>罪莫大於可欲，huo<code>（旤+心，心在右下部）</code>莫大於不知足，咎莫憯於欲得。</strong><br><strong>故知足之足，恆足矣。</strong></p>
 <span id="more"></span>
 
@@ -729,7 +212,7 @@
   </entry>
   <entry>
     <title>老子第十章 知天下</title>
-    <url>/2020/04/03/LaoZi/2020-04-04-%E8%80%81%E5%AD%9010_%E7%9F%A5%E5%A4%A9%E4%B8%8B/</url>
+    <url>/2020/04/03/LaoZi/%E8%80%81%E5%AD%9010_%E7%9F%A5%E5%A4%A9%E4%B8%8B/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>不出於戶，以知天下；不規於牖，以知天道。</strong><br><strong>其出也㣆遠，其知也㣆少。</strong><br><strong>是以聖人，不行而知，不見而名，弗為而成。</strong></p>
 <span id="more"></span>
 
@@ -750,7 +233,7 @@
   </entry>
   <entry>
     <title>老子第十一章 无為</title>
-    <url>/2020/04/04/LaoZi/2020-04-05-%E8%80%81%E5%AD%9011_%E6%97%A0%E4%B8%BA/</url>
+    <url>/2020/04/04/LaoZi/%E8%80%81%E5%AD%9011_%E6%97%A0%E4%B8%BA/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>為學者日益，聞道者日損。損之又損，以至於无為，无為而无不為。</strong><br><strong>將欲取天下者恒无事，及其有事也，不足以取天下。</strong></p>
 <span id="more"></span>
 
@@ -771,7 +254,7 @@
   </entry>
   <entry>
     <title>老子第十二章 德善</title>
-    <url>/2020/04/05/LaoZi/2020-04-06-%E8%80%81%E5%AD%9012_%E5%BE%B7%E5%96%84/</url>
+    <url>/2020/04/05/LaoZi/%E8%80%81%E5%AD%9012_%E5%BE%B7%E5%96%84/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>聖人恆无心，以百姓之心 爲心。</strong><br><strong>善者善之，不善者亦善之；德善也。</strong><br><strong>信者信之，不信者亦信之；德信也。</strong><br><strong>聖人之在天下，翕翕(xi 1)焉，爲天下渾心，百姓皆屬(shu 3)其耳目焉，聖人皆咳(hai 2)之。</strong></p>
 ]]></content>
       <categories>
@@ -785,7 +268,7 @@
   </entry>
   <entry>
     <title>老子第十三章 生死</title>
-    <url>/2020/04/06/LaoZi/2020-04-07-%E8%80%81%E5%AD%9013_%E7%94%9F%E6%AD%BB/</url>
+    <url>/2020/04/06/LaoZi/%E8%80%81%E5%AD%9013_%E7%94%9F%E6%AD%BB/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>出生，入死。</strong><br><strong>生之徒十有三；死之徒十有三；而民生生，動(dong 4)皆之死地之十有三。</strong><br><strong>夫何故也？以其生生也。</strong><br><strong>蓋(gai 4)聞善執生者，陵行不辟(bi 4)兕(si 4)虎，入軍不被(bei4)甲兵；兕(si 4)无所椯(duo 3)其角，虎无所昔(cuo 4)其(zhao 3)，兵无所容其刃。</strong><br><strong>夫何故也？以其无死地焉。</strong></p>
 ]]></content>
       <categories>
@@ -799,7 +282,7 @@
   </entry>
   <entry>
     <title>老子第十四章 尊貴</title>
-    <url>/2020/04/07/LaoZi/2020-04-08-%E8%80%81%E5%AD%9014_%E5%B0%8A%E8%B4%B5/</url>
+    <url>/2020/04/07/LaoZi/%E8%80%81%E5%AD%9014_%E5%B0%8A%E8%B4%B5/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>道生之，而德畜(xu 4)之，物形之，而器成之。</strong><br><strong>是以萬物尊道而貴德。</strong><br><strong>道之尊，德之貴也，夫莫之(jue 2)而恆自祭也。</strong><br><strong>道生之、畜(xu4)之；長之、遂(sui 4)之，亭之、毒之，養之、覆之。</strong><br><strong>生而弗有也，爲而弗寺(shi 4)也，長而弗宰也。此之謂玄德。</strong></p>
 ]]></content>
       <categories>
@@ -813,7 +296,7 @@
   </entry>
   <entry>
     <title>老子第十五章 守母</title>
-    <url>/2020/04/09/LaoZi/2020-04-09-%E8%80%81%E5%AD%9015_%E5%AE%88%E6%AF%8D/</url>
+    <url>/2020/04/09/LaoZi/%E8%80%81%E5%AD%9015_%E5%AE%88%E6%AF%8D/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>天下有始，以爲天下母。</strong><br><strong>既得其母，以知其子，復守其母，沒(me 4)身不殆。</strong><br><strong>塞其悶(men 4)，閉其門，終身不堇(jin 3)。</strong><br><strong>啓(qi 3)其悶(men 4)，濟（ji 4）其事，終身不救。</strong><br><strong>見小曰明，守柔曰強。</strong><br><strong>用其光，復歸其明。</strong></p>
 ]]></content>
       <categories>
@@ -827,7 +310,7 @@
   </entry>
   <entry>
     <title>老子第十六章 盜桍</title>
-    <url>/2020/04/09/LaoZi/2020-04-10-%E8%80%81%E5%AD%9016_%E7%9B%97%E6%A1%8D/</url>
+    <url>/2020/04/09/LaoZi/%E8%80%81%E5%AD%9016_%E7%9B%97%E6%A1%8D/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>毋道身殃，是謂襲常。</strong><br><strong>使我 (jie 1)有知也，行於大道，唯施是畏。</strong><br><strong>大道甚夷，民甚好(hao 4)解。</strong><br><strong>朝（chao 2）甚除，田甚蕪(wu 2)，倉甚虛；服文采，帶利劍，厭(yan4)食而齎(ji 1)財有餘；是謂盜桍(ku 1)。</strong><br><strong>盜桍(ku 1)，非道也！（）</strong></p>
 ]]></content>
       <categories>
@@ -841,7 +324,7 @@
   </entry>
   <entry>
     <title>老子第十七章 善觀</title>
-    <url>/2020/04/11/LaoZi/2020-04-11-%E8%80%81%E5%AD%9017_%E5%96%84%E8%A7%82/</url>
+    <url>/2020/04/11/LaoZi/%E8%80%81%E5%AD%9017_%E5%96%84%E8%A7%82/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>善建者不拔（ba 2），善抱者不脫，子孫以祭祀不絕。</strong><br><strong>修之身，其德乃真；修之家，其德有餘；修之鄉，其德乃長(chang 2)；修之邦，其德乃豐(feng 1)；修之天下，其德乃博。</strong><br><strong>以身觀身，以家觀家，以鄉觀鄉，以邦觀邦，以天下觀天下。</strong><br><strong>吾何以知天下然茲(zi 1)？以此。</strong></p>
 ]]></content>
       <categories>
@@ -855,7 +338,7 @@
   </entry>
   <entry>
     <title>老子第十八章 含德</title>
-    <url>/2020/04/11/LaoZi/2020-04-12-%E8%80%81%E5%AD%9018_%E5%90%AB%E5%BE%B7/</url>
+    <url>/2020/04/11/LaoZi/%E8%80%81%E5%AD%9018_%E5%90%AB%E5%BE%B7/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>含德之厚者，比於赤子。蜂 (na 4)( wei 1)地弗螫(shi 4)，(jue2)鳥猛獸弗搏。骨弱筋柔而握固。未知牝牡(pin 4 mu 3)之合而朘(zhui1)怒，精之至也。終日號(hao 2)而不(you 1)，和之至也。</strong><br><strong>和曰常，知和曰明；益生曰祥，心使氣曰強。</strong><br><strong>物壯即老，謂之不道，不道早已。</strong></p>
 ]]></content>
       <categories>
@@ -869,7 +352,7 @@
   </entry>
   <entry>
     <title>老子第十九章 玄同</title>
-    <url>/2020/04/12/LaoZi/2020-04-13-%E8%80%81%E5%AD%9019_%E7%8E%84%E5%90%8C/</url>
+    <url>/2020/04/12/LaoZi/%E8%80%81%E5%AD%9019_%E7%8E%84%E5%90%8C/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>知者弗言，言者弗知。</strong><br><strong>塞（sai 1）其悶(men 4)，閉其門，和其光，同其(chen 2)，坐(cuo4 )其兌(dui4)而解其紛，是謂玄同。</strong><br><strong>故不可得而親，亦不可得而踈(shu 1)；不可得而利，亦不可得而害；不可得而貴，亦不可得而贱(jian 4)。故爲天下貴。</strong></p>
 ]]></content>
       <categories>
@@ -882,9 +365,51 @@
       </tags>
   </entry>
   <entry>
-    <title>老子第XX章 治邦</title>
-    <url>/2020/04/13/LaoZi/2020-04-14-%E8%80%81%E5%AD%9020_%E6%B2%BB%E9%82%A6/</url>
+    <title>老子第二十章 治邦</title>
+    <url>/2020/04/13/LaoZi/%E8%80%81%E5%AD%9020_%E6%B2%BB%E9%82%A6/</url>
     <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>以正之邦，以畸(ji 1)用兵，以无事取天下。吾何以知其然也哉？</strong><br><strong>夫天下多忌諱，而民彌(mi 2)貧；民多利器，而邦家 茲(zi 1)昏；人多知，而奇物茲起；法物茲彰，而盜賊多有。</strong><br><strong>是以聖人之言曰：我无爲也，而民自化；我好(hao 4)靜，而民自正；我无事，民自富；我欲不欲，而民自(pu 3)。</strong></p>
+]]></content>
+      <categories>
+        <category>老子</category>
+      </categories>
+      <tags>
+        <tag>老子</tag>
+        <tag>道德经</tag>
+        <tag>德道经</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老子第二十一章 爲正</title>
+    <url>/2020/04/14/LaoZi/%E8%80%81%E5%AD%9021_%E4%B8%BA%E6%AD%A3/</url>
+    <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>其正 (qi 4)，其民 屯屯；其正 察察，其邦 夬夬(guai 4)。</strong><br><strong>禍，福之所倚(yi 3)；福，禍之所伏。孰知其極？</strong><br><strong>其无正也。正 復爲奇(ji 1)，善 復爲訞(yao 1)。</strong><br><strong>人之迷也，其日固久矣。</strong><br><strong>是以 方而不割，兼而不刺，直而不絏(xie 4)，光而不耀。</strong></p>
+]]></content>
+      <categories>
+        <category>老子</category>
+      </categories>
+      <tags>
+        <tag>老子</tag>
+        <tag>道德经</tag>
+        <tag>德道经</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老子第二十二章 長生</title>
+    <url>/2020/04/15/LaoZi/%E8%80%81%E5%AD%9022_%E9%95%BF%E7%94%9F/</url>
+    <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>治人 事天，莫若 嗇（se 4）。</strong><br><strong>夫唯 嗇，是以 （zao 3）服； （zao 3）服 胃之重積（ji 1）德；重積德則无不克；无不克則莫知其極；莫知其極，可以有國；有國之母，可以長久。</strong><br><strong>是謂 深根固柢（di 3），長生久視 之道也。</strong></p>
+]]></content>
+      <categories>
+        <category>老子</category>
+      </categories>
+      <tags>
+        <tag>老子</tag>
+        <tag>道德经</tag>
+        <tag>德道经</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老子第二十三章 居位</title>
+    <url>/2020/04/16/LaoZi/%E8%80%81%E5%AD%9023_%E5%B1%85%E4%BD%8D/</url>
+    <content><![CDATA[<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><strong>治大國，若烹小鮮。</strong><br><strong>以道蒞（di 4）天下，其鬼不神；非其鬼 不神也，其神 不傷人也；非其神 不傷人也，聖人 亦弗傷也。</strong><br><strong>夫兩不相傷，故 德交 歸焉。</strong></p>
 ]]></content>
       <categories>
         <category>老子</category>
