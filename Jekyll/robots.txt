@@ -1,1 +1,1 @@
-Sitemap: https://helloblog.cn/sitemap.xml
+Sitemap: https://helloblog.cn/Jekyll/sitemap.xml
