@@ -8,31 +8,50 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+
+    border: solid .4rem #fff;
+}
+
+@media screen and (max-width: 768px) {
+    #grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
 }
 
 .grid-item {
     margin: 0%;
     padding: 0%;
-    height: 50vh;
+    height: calc((100vh - .8rem) / 2);
     box-sizing: border-box;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    border: solid .8rem #FFFFFF;
+    font-size: 1rem;
+
+    border: solid .4rem #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-item {
+        height: calc((100vh - .8rem) / 4);
+    }
 }
 
 .grid-item:hover {
-    outline: solid 1rem greenyellow;
+    border: solid .2rem #fff;
     z-index: 1;
+
+    font-size: 1.1rem;
 }
 
 .grid-item:nth-child(1) {
     background-color: #e84e1a;
 }
 
-.grid-item:nth-child(1) i {
+.grid-item:nth-child(1) * {
     color: #1ab4e8
 }
 
@@ -40,7 +59,7 @@ body {
     background-color: #90c32e;
 }
 
-.grid-item:nth-child(2) i {
+.grid-item:nth-child(2) * {
     color: #612ec3
 }
 
@@ -48,7 +67,7 @@ body {
     background-color: #18a1e7;
 }
 
-.grid-item:nth-child(3) i {
+.grid-item:nth-child(3) * {
     color: #e75e18;
 }
 
@@ -56,7 +75,7 @@ body {
     background-color: #f7b53b;
 }
 
-.grid-item:nth-child(4) i {
+.grid-item:nth-child(4) * {
     color: #3b7df7
 }
 
@@ -64,33 +83,32 @@ body {
     box-sizing: border-box;
 
     text-align: center;
-
-    border-radius: .4rem;
 }
 
 .item>a {
-    font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: none;
 }
 
-#item11 {
-    margin: 1.6rem .8rem .8rem 1.6rem;
+.item i {
+    font-size: 8em;
 }
 
-/*
-#item11:hover {
-    margin: 1.2rem .6rem .6rem 1.2rem;
-    height: calc(50vh - 1.2rem * 1.5);
-}
-*/
-#item12 {
-    margin: 1.6rem 1.6rem .8rem .8rem;
+.item span {
+    font-size: 1.6em;
 }
 
-#item21 {
-    margin: .8rem .8rem 1.6rem 1.6rem;
+.item i:hover {
+    transform: rotateY(180deg);
 }
 
-#item22 {
-    margin: .8rem 1.6rem 1.6rem .8rem;
+@media screen and (max-width: 768px) {
+    .item i {
+        font-size: 4rem;
+    }
+
+    .item span {
+        font-size: 1em;
+    }
 }
