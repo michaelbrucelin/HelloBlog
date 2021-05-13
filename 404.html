@@ -1,15 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I'm Sorry.</title>
+    <meta name="viewport"
+        content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <title>403FOUND.CN</title>
+
+    <link rel="icon" type="image/png" href="assets/image/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/404/404.css">
 </head>
 
 <body>
-    <h1>I'm so sorry.</h1>
+    <div class="container">
+        <div class="heading">
+            <h1 class="game-intro">对不起，您访问的页面没有找到，或这在建设中，请先玩会游戏吧！</h1>
+            <div class="scores-container">
+                <div class="score-container">0</div>
+                <div class="best-container">0</div>
+            </div>
+        </div>
+
+        <div class="above-game">
+            <p class="game-intro">合并数字，达成<strong>2048</strong></p>
+            <a class="close-button">403found.cn</a>
+            <a class="restart-button">新游戏</a>
+        </div>
+
+        <div class="game-container">
+            <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <a class="keep-playing-button">继续</a>
+                    <a class="retry-button">再来一次</a>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+            </div>
+
+            <div class="tile-container">
+
+            </div>
+        </div>
+
+        <p class="game-explanation">
+            <strong class="important">如何玩：</strong>按<strong>光标键</strong>来移动方格. 两个相同数字的方格挨到一起时，它们会<strong>累加成一个！</strong>
+        </p>
+        <hr>
+        <p>
+            Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a
+                href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and
+            conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+        </p>
+    </div>
+
+    <script src="assets/javascript/404/bind_polyfill.js"></script>
+    <script src="assets/javascript/404/classlist_polyfill.js"></script>
+    <script src="assets/javascript/404/animframe_polyfill.js"></script>
+    <script src="assets/javascript/404/keyboard_input_manager.js"></script>
+    <script src="assets/javascript/404/html_actuator.js"></script>
+    <script src="assets/javascript/404/grid.js"></script>
+    <script src="assets/javascript/404/tile.js"></script>
+    <script src="assets/javascript/404/local_storage_manager.js"></script>
+    <script src="assets/javascript/404/game_manager.js"></script>
+    <script src="assets/javascript/404/application.js"></script>
 </body>
 
 </html>
