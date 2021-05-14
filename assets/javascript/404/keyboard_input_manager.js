@@ -134,7 +134,7 @@ KeyboardInputManager.prototype.restart = function (event) {
 };
 KeyboardInputManager.prototype.close = function (event) {
     event.preventDefault();
-    window.location = 'https://www.403found.cn';
+    window.location = 'https://helloblog.cn';
 };
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
