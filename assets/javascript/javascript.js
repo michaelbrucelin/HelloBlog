@@ -26,6 +26,20 @@ function random_font_awesome() {
     }
 }
 
+function random_note_item() {
+    // 目前页面配置了4项，其中1、3、4项是固定的，这里随机的是第二项
+    var item2 = document.getElementById("item12");
+
+    var items = Array('Eleventy', 'Gatsby', 'Hugo', 'Pelican', 'VuePress');
+    var ranitem = items[Math.floor(Math.random() * items.length)];
+
+    var item_a = item2.querySelector("a");
+    item_a.setAttribute("href", "Notes/" + ranitem + "/index.html");
+    var item_span = item_a.querySelector("span");
+    item_span.textContent = ranitem;
+}
+
 window.onload = function () {
+    random_note_item();
     random_font_awesome();
 }
